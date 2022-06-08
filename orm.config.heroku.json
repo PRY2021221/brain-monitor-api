@@ -1,0 +1,10 @@
+{
+    "type":"postgres",
+    "ssl" : { "rejectUnauthorized": false },
+    "url": "postgres://iubrotxinmptdn:b5b71d4b1398302c1949f97d0357e5d75e038ee6403663965542d8c945456c3d@ec2-3-218-171-44.compute-1.amazonaws.com:5432/d7mdg221gun41j",
+    "entities": ["src/**/**/*.entity{.ts,.js}"],
+    "migrations": ["src/database/migrations/*{.ts,.js}"],
+    "cli":{
+        "migrationsDir": "src/database/migrations"
+    }
+}
